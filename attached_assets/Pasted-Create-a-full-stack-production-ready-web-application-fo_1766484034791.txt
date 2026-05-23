@@ -1,0 +1,169 @@
+Create a full-stack, production-ready web application for a school fees management system with the following exact requirements:
+
+🏫 School Details
+
+School Name: Tiny Gems Public High School
+
+Affiliation: PSEB (Punjab School Education Board)
+
+Classes: Pre-Nursery to Class 10
+
+Location: Mohindra Colony, Opposite Mohindra College, Patiala, Punjab
+
+Managed By: Madhav Gautam (Digital Content Incharge)
+
+👥 User Roles & Authentication
+
+Implement a secure role-based login system with authentication (email + password):
+
+Admin (Super Admin – Me)
+
+Full access to everything
+
+Can view, edit, delete all data
+
+Can see reports of all classes and all students
+
+Principal
+
+Read-only access to all students’ fee data
+
+Can view analytics and reports
+
+Cannot modify or delete student or payment data
+
+Staff / Teachers
+
+Each teacher is assigned specific class(es)
+
+Can only manage students of their assigned class
+
+Cannot see other classes’ data
+
+👨‍🎓 Student Management (Teacher Side)
+
+For each class, teachers should be able to:
+
+Add students class-wise
+
+Store the following student details:
+
+Student Name
+
+Father’s Name
+
+Mother’s Name
+
+Aadhaar Number
+
+Phone Number (for SMS alerts)
+
+Date of Birth
+
+Class & Section
+
+Students should appear in a table/list view
+
+💰 Fees Management Features
+
+For each student row, provide:
+
+Two buttons:
+
+✅ Mark Paid
+
+Marks the fee as paid for the selected month(s)
+
+❌ Clear
+
+Removes previously marked payment (reset status)
+
+Support advance fee payment
+
+Allow marking fees for upcoming months as paid
+
+Maintain monthly fee status
+
+Paid / Unpaid / Advance Paid
+
+📊 Analytics & Reports
+
+Provide powerful fees analysis dashboards:
+
+Month-wise analysis
+
+Quarter-wise analysis
+
+Year-wise analysis
+
+Show:
+
+Total students
+
+Paid students
+
+Unpaid students
+
+Total fee collected
+
+Pending fee amount
+
+Charts:
+
+Bar charts
+
+Pie charts
+
+Line charts (optional)
+
+📤 Sharing Feature
+
+Add a “Share Report” button
+
+Allow exporting and sharing reports:
+
+Via WhatsApp
+
+As text summary or PDF
+
+Format messages cleanly for WhatsApp
+
+📱 Automatic SMS Reminder System
+
+Implement automatic SMS alerts:
+
+If a student’s fee is not paid by the 10th of every month
+
+Send an SMS reminder to the saved phone number
+
+Message should be polite and professional
+
+SMS logic should run automatically (cron / scheduler)
+
+🔐 Access Control Rules
+
+Admin → Can see and manage everything
+
+Principal → Can only view all students & reports
+
+Teacher → Can only manage assigned class students
+
+🧠 Technical Requirements
+
+Use a proper database schema (tables for users, roles, students, fees, payments)
+
+Ensure data security
+
+Clean, responsive UI (desktop + mobile friendly)
+
+Simple and intuitive design suitable for school staff
+
+Include proper validations (Aadhaar length, phone number, DOB, etc.)
+
+📌 Extra Notes
+
+Use modern web stack (React / Next / Node / Express / DB as suitable)
+
+Make the system scalable for future upgrades
+
+Add comments in code for easy understanding

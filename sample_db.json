@@ -1,0 +1,428 @@
+{
+  "students": [
+    {
+      "id": "s3",
+      "name": "Ishaan Gupta",
+      "fatherName": "Rahul Gupta",
+      "motherName": "Neha Gupta",
+      "aadhaar": "456789123012",
+      "phone": "9876543212",
+      "dob": "2011-01-10",
+      "class": "9",
+      "section": "B",
+      "rollNo": "901"
+    },
+    {
+      "id": "s4",
+      "name": "Vihaan Kumar",
+      "fatherName": "Suresh Kumar",
+      "motherName": "Anita Kumar",
+      "aadhaar": "789012345678",
+      "phone": "9876543213",
+      "dob": "2012-03-25",
+      "class": "8",
+      "section": "A",
+      "rollNo": "801"
+    },
+    {
+      "id": "s5",
+      "name": "Ananya Patel",
+      "fatherName": "Vikram Patel",
+      "motherName": "Meera Patel",
+      "aadhaar": "321654987012",
+      "phone": "9876543214",
+      "dob": "2013-11-05",
+      "class": "7",
+      "section": "C",
+      "rollNo": "701"
+    },
+    {
+      "id": "s8",
+      "name": "Arjun Singh",
+      "fatherName": "Mohan Singh",
+      "motherName": "Preeti Singh",
+      "aadhaar": "456789012345",
+      "phone": "9876543217",
+      "dob": "2011-07-22",
+      "class": "9",
+      "section": "A",
+      "rollNo": "902"
+    },
+    {
+      "id": "s9",
+      "name": "Shreya Kapoor",
+      "fatherName": "Rajesh Kapoor",
+      "motherName": "Anjali Kapoor",
+      "aadhaar": "567890123456",
+      "phone": "9876543218",
+      "dob": "2011-03-18",
+      "class": "9",
+      "section": "B",
+      "rollNo": "903"
+    },
+    {
+      "id": "s10",
+      "name": "Karan Patel",
+      "fatherName": "Harish Patel",
+      "motherName": "Ritika Patel",
+      "aadhaar": "678901234567",
+      "phone": "9876543219",
+      "dob": "2012-05-30",
+      "class": "8",
+      "section": "B",
+      "rollNo": "802"
+    },
+    {
+      "id": "s11",
+      "name": "Neha Singh",
+      "fatherName": "Arun Singh",
+      "motherName": "Divya Singh",
+      "aadhaar": "789012345679",
+      "phone": "9876543220",
+      "dob": "2012-09-12",
+      "class": "8",
+      "section": "A",
+      "rollNo": "803"
+    },
+    {
+      "id": "s12",
+      "name": "Aryan Joshi",
+      "fatherName": "Ramesh Joshi",
+      "motherName": "Minal Joshi",
+      "aadhaar": "890123456780",
+      "phone": "9876543221",
+      "dob": "2013-01-05",
+      "class": "7",
+      "section": "A",
+      "rollNo": "702"
+    },
+    {
+      "id": "s13",
+      "name": "Isha Nair",
+      "fatherName": "Suresh Nair",
+      "motherName": "Lakshmi Nair",
+      "aadhaar": "901234567891",
+      "phone": "9876543222",
+      "dob": "2013-06-20",
+      "class": "7",
+      "section": "B",
+      "rollNo": "703"
+    },
+    {
+      "id": "s14",
+      "name": "Siddharth Reddy",
+      "fatherName": "Narayana Reddy",
+      "motherName": "Samhita Reddy",
+      "aadhaar": "012345678902",
+      "phone": "9876543223",
+      "dob": "2014-04-16",
+      "class": "6",
+      "section": "A",
+      "rollNo": "601"
+    },
+    {
+      "id": "s15",
+      "name": "Priya Sharma",
+      "fatherName": "Vikram Sharma",
+      "motherName": "Geeta Sharma",
+      "aadhaar": "123456789013",
+      "phone": "9876543224",
+      "dob": "2014-08-25",
+      "class": "6",
+      "section": "B",
+      "rollNo": "602"
+    },
+    {
+      "id": "s16",
+      "name": "Ravi Tiwari",
+      "fatherName": "Anil Tiwari",
+      "motherName": "Seema Tiwari",
+      "aadhaar": "234567890124",
+      "phone": "9876543225",
+      "dob": "2015-02-10",
+      "class": "5",
+      "section": "A",
+      "rollNo": "501"
+    },
+    {
+      "id": "s17",
+      "name": "Anjali Gupta",
+      "fatherName": "Ashok Gupta",
+      "motherName": "Madhavi Gupta",
+      "aadhaar": "345678901235",
+      "phone": "9876543226",
+      "dob": "2015-07-14",
+      "class": "5",
+      "section": "B",
+      "rollNo": "502"
+    }
+  ],
+  "fees": [
+    {
+      "id": "f-s1-3",
+      "studentId": "s1",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-10"
+    },
+    {
+      "id": "f-s1-4",
+      "studentId": "s1",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-05-10"
+    },
+    {
+      "id": "f-s1-5",
+      "studentId": "s1",
+      "month": 5,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-06-10"
+    },
+    {
+      "id": "f-s1-6",
+      "studentId": "s1",
+      "month": 6,
+      "year": 2024,
+      "amount": 1500,
+      "status": "UNPAID"
+    },
+    {
+      "id": "f-s2-3",
+      "studentId": "s2",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-05"
+    },
+    {
+      "id": "f-s2-4",
+      "studentId": "s2",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-05-08"
+    },
+    {
+      "id": "f-s2-5",
+      "studentId": "s2",
+      "month": 5,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-06-12"
+    },
+    {
+      "id": "f-s3-3",
+      "studentId": "s3",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-08"
+    },
+    {
+      "id": "f-s3-4",
+      "studentId": "s3",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-05-15"
+    },
+    {
+      "id": "f-s3-5",
+      "studentId": "s3",
+      "month": 5,
+      "year": 2024,
+      "amount": 1500,
+      "status": "UNPAID"
+    },
+    {
+      "id": "f-s4-3",
+      "studentId": "s4",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-12"
+    },
+    {
+      "id": "f-s4-4",
+      "studentId": "s4",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "UNPAID"
+    },
+    {
+      "id": "f-s5-3",
+      "studentId": "s5",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-15"
+    },
+    {
+      "id": "f-s5-4",
+      "studentId": "s5",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-05-20"
+    },
+    {
+      "id": "f-s6-3",
+      "studentId": "s6",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-18"
+    },
+    {
+      "id": "f-s6-4",
+      "studentId": "s6",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-05-22"
+    },
+    {
+      "id": "f-s7-3",
+      "studentId": "s7",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-20"
+    },
+    {
+      "id": "f-s8-3",
+      "studentId": "s8",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-10"
+    },
+    {
+      "id": "f-s8-4",
+      "studentId": "s8",
+      "month": 4,
+      "year": 2024,
+      "amount": 1500,
+      "status": "UNPAID"
+    },
+    {
+      "id": "f-s9-3",
+      "studentId": "s9",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-09"
+    },
+    {
+      "id": "f-s10-3",
+      "studentId": "s10",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "PAID",
+      "paymentDate": "2024-04-14"
+    },
+    {
+      "id": "f-s11-3",
+      "studentId": "s11",
+      "month": 3,
+      "year": 2024,
+      "amount": 1500,
+      "status": "UNPAID"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Madhav Gautam",
+      "email": "admin@tinygems.edu",
+      "password": "admin123",
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sharma",
+      "email": "principal@tinygems.edu",
+      "password": "principal123",
+      "role": "PRINCIPAL"
+    },
+    {
+      "id": "t1",
+      "name": "Mrs. Verma (Class 10)",
+      "email": "teacher10@tinygems.edu",
+      "password": "teacher10",
+      "role": "TEACHER",
+      "assignedClass": "10"
+    },
+    {
+      "id": "t2",
+      "name": "Mr. Patel (Class 9)",
+      "email": "teacher9@tinygems.edu",
+      "password": "teacher9",
+      "role": "TEACHER",
+      "assignedClass": "9"
+    },
+    {
+      "id": "t3",
+      "name": "Ms. Singh (Class 8)",
+      "email": "teacher8@tinygems.edu",
+      "password": "teacher8",
+      "role": "TEACHER",
+      "assignedClass": "8"
+    },
+    {
+      "id": "t4",
+      "name": "Mr. Kumar (Class 7)",
+      "email": "teacher7@tinygems.edu",
+      "password": "teacher7",
+      "role": "TEACHER",
+      "assignedClass": "7"
+    },
+    {
+      "id": "t5",
+      "name": "Mrs. Gupta (Class 6)",
+      "email": "teacher6@tinygems.edu",
+      "password": "teacher6",
+      "role": "TEACHER",
+      "assignedClass": "6"
+    },
+    {
+      "id": "t6",
+      "name": "Mr. Joshi (Class 5)",
+      "email": "teacher5@tinygems.edu",
+      "password": "teacher5",
+      "role": "TEACHER",
+      "assignedClass": "5"
+    }
+  ],
+  "exportedAt": "2024-12-24T12:00:00.000Z",
+  "schoolDetails": {
+    "name": "Tiny Gems Public High School",
+    "affiliation": "PSEB",
+    "location": "Mohindra Colony, Opposite Mohindra College, Patiala, Punjab",
+    "classes": ["5", "6", "7", "8", "9", "10"],
+    "monthlyFee": 1500,
+    "academicYear": "2024-2025"
+  }
+}
